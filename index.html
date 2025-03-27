@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <script src="imc.js" defer></script>
+    <script src="imc2.js" defer></script>
+    <section>
+        <div id="imc">
+         <h1>IMC</h1>
+         <h1 id="subtexto">calcule seu imc já</h1>
+        </div>
+        <article>
+            <form action="">
+                <div>
+                    <h3 id="pesoTXT">Coloque seu peso abaixo</h3>
+                    <input type="text" placeholder="coloque seu peso" name="peso" id="peso">
+                </div>
+                <div>
+                    <h3 id="alturaTXT">coloque sua altura abaixo</h3>
+                    <input type="text" placeholder="coloque sua altura" name="altura" id="altura">
+                </div>
+                <div id="resultado">
+                   <input type="button" value="Calcular masculino" onclick="calcular()" class="button">
+                   <input type="button" value="Calcular feminino" onclick="calcular2()" class="button">
+                </div>
+                <div id="recebe">resultado:</div>
+            </form>
+        </article>
+    </section>
+</body>
+</html>
